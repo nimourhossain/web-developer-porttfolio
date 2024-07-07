@@ -28,6 +28,10 @@ nav ul li{
     margin-right: 51px;
 }
 /* Shared Styles */
+.second-bg{
+    background-color: #FFF8F3;
+    
+}
 .new-font{
     font-family: "Open Sans", sans-serif;;
 }
@@ -52,6 +56,18 @@ header{
     /* margin: 45px 0 0 32px; */
     background-position: top left, bottom right;
 }
+.section-tile{
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #181818;
+    
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    
+}
 /* Banner */
 
 .banner-greetings{
@@ -72,4 +88,25 @@ header{
 }
 .banner-content{
     max-width: 580px;
+}
+
+/* About Styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin: 130px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* items */
+.item-description{
+    font-weight: bold;
 }
