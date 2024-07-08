@@ -68,6 +68,9 @@ header{
     font-size: 18px;
     
 }
+.text-center{
+    text-align: center;
+}
 /* Banner */
 
 .banner-greetings{
@@ -109,4 +112,97 @@ main{
 /* items */
 .item-description{
     font-weight: bold;
+    color:#474747;
+}
+.item-title{
+    color:#757575;
+}
+/* skill item */
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap:24px;
+    margin-top: 50px;
+   
+}
+.skill{
+    background-color: #FFFFFF;
+    padding:30px;
+   box-shadow: 0 6px 50px 0 rgb(233, 233, 233);
+   border-radius: 5px;
+}
+.resume-container{
+    display:flex;
+    gap:26px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.experience-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-sub-title, .experience-description{
+    color:#757575;
+    
+}
+.section-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+}
+.resume-column-title{
+  font-size:30px;
+  font-weight: bold;
+}
+.download-button{
+    margin-top: 50px;
+}
+.skill-description{
+    color:#757575;
+}
+/* Footer-style */
+
+footer{
+padding: 130px 230px;
+display: flex;
+gap:100px;
+}
+.secondary-bg{
+    background-color:#FFF8F3;
+    margin-top: 113px;
+}
+.footer-column{
+    width:50%;
+}
+
+ input
+{
+    background-color: white;
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    border:none;
+
+}
+
+.re{
+    display: block;
+    margin-top: 24px;
+    height: 64px;
+    width: 150px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border:none;
 }
